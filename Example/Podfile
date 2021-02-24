@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'KTDirectSeedingSDK_Example' do
+  pod 'KTDirectSeedingSDK', :path => '../'
+
+  target 'KTDirectSeedingSDK_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+  end
+end
