@@ -1,0 +1,6 @@
+framework module KTDirectSeedingSDK {
+  umbrella header "KTDirectSeedingSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
