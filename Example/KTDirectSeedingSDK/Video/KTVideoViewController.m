@@ -1,24 +1,27 @@
 //
-//  KTViewController.m
-//  KTDirectSeedingSDK
-//
-//  Created by kestraltorah@163.com on 02/24/2021.
-//  Copyright (c) 2021 kestraltorah@163.com. All rights reserved.
-//
 
-#import "KTViewController.h"
+// KTVideoViewController.m
+// KTDirectSeedingSDK_Example
+
+// Created by KestralTorah (郭炜) on 2021/2/24
+// E-mail: guowei@huami.com
+// Copyright © 2021 kestraltorah@163.com. All rights reserved.
+
+    
+
 #import "KTVideoViewController.h"
+#import "KTCaptureViewController.h"
 
 static NSString *kCellIdentify = @"KTViewControllerCell";
 
-@interface KTViewController ()<UITableViewDelegate, UITableViewDataSource>
+@interface KTVideoViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) NSArray *dataSource;
 @property (nonatomic, strong) UITableView *tableView;
 
 @end
 
-@implementation KTViewController
+@implementation KTVideoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -27,7 +30,7 @@ static NSString *kCellIdentify = @"KTViewControllerCell";
 
 #pragma mark -- 初始化界面
 - (void)initializeViews {
-    self.title = @"KTDirectSeeding";
+    self.title = @"视频";
     self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, UIScreen.mainScreen.bounds.size.width, UIScreen.mainScreen.bounds.size.height) style:UITableViewStylePlain];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
@@ -60,7 +63,8 @@ static NSString *kCellIdentify = @"KTViewControllerCell";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     switch (indexPath.row) {
         case 0: {
-            [self.navigationController pushViewController:[KTVideoViewController new] animated:YES];
+            /// 摄像头采集数据
+            [self.navigationController pushViewController:[KTCaptureViewController new] animated:YES];
         }
             break;
         case 1:
@@ -75,7 +79,7 @@ static NSString *kCellIdentify = @"KTViewControllerCell";
 #pragma mark -- 懒加载
 - (NSArray *)dataSource {
     if (!_dataSource) {
-        _dataSource = @[@"视频", @"音频", @"编解码", @""];
+        _dataSource = @[@"摄像头采集数据", @"视频编解码", @"编解码", @""];
     }
     return _dataSource;
 }

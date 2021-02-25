@@ -7,12 +7,18 @@
 //
 
 #import "KTAppDelegate.h"
+#import "KTViewController.h"
 
 @implementation KTAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    KTViewController* rootVC = [[KTViewController alloc] init];
+    UINavigationController* navVC = [[UINavigationController alloc] initWithRootViewController:rootVC];
+    self.window.rootViewController = navVC;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
