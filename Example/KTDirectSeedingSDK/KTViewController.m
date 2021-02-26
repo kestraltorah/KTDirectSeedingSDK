@@ -7,7 +7,7 @@
 //
 
 #import "KTViewController.h"
-#import "KTVideoViewController.h"
+#import "KTCaptureViewController.h"
 
 static NSString *kCellIdentify = @"KTViewControllerCell";
 
@@ -60,7 +60,7 @@ static NSString *kCellIdentify = @"KTViewControllerCell";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     switch (indexPath.row) {
         case 0: {
-            [self.navigationController pushViewController:[KTVideoViewController new] animated:YES];
+            [self.navigationController pushViewController:[KTCaptureViewController new] animated:YES];
         }
             break;
         case 1:

@@ -17,7 +17,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol KTVideoCapturerProtocol <NSObject>
+@protocol KTVideoCapturerDelegate <NSObject>
 
 /// 摄像头采集数据
 /// @param sampleBuffer 摄像头采集到的CMSampleBufferRef类型、原始YUV数据
@@ -44,7 +44,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface KTVideoCapturer : NSObject
 
 /// 代理
-@property (nonatomic, weak) id<KTVideoCapturerProtocol> delegate;
+@property (nonatomic, weak) id<KTVideoCapturerDelegate> delegate;
 
 /// 预览图层，把这个图层加在View上并且为这个图层设置frame就能播放
 @property (nonatomic, strong, readonly) AVCaptureVideoPreviewLayer *videoPreviewLayer;

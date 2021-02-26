@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		008A37B2A63BC1F3E33557FEF5BEE189 /* NSValue+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B790BA3DDD31E30AA56D143221808F /* NSValue+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00B3EF135DE4634D6FA1E5EF15239824 /* EXPMatchers+endWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 51086B5967720918118676ADC2E04F05 /* EXPMatchers+endWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03F09A3A25E79CCC00864542 /* KTVideoDecoder_H264.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F09A3825E79CCC00864542 /* KTVideoDecoder_H264.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03F09A3B25E79CCC00864542 /* KTVideoDecoder_H264.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F09A3925E79CCC00864542 /* KTVideoDecoder_H264.m */; };
+		03F09A4F25E7A9B800864542 /* KTVideoEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F09A4D25E7A9B800864542 /* KTVideoEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03F09A5025E7A9B800864542 /* KTVideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F09A4E25E7A9B800864542 /* KTVideoEncoder.m */; };
 		0475A9EA5F07D6B60E1135A35541C3C3 /* Specta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68C600495790C3CA74CAF7323014D0B6 /* Specta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05BCAED08DADF67CC4711A102262D9AB /* EXPMatchers+equal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA39E2AE0A0E3E07FABF3883D3D2480 /* EXPMatchers+equal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		05CFF6618B87EDE2069D4C5D3DDFF9EB /* EXPMatchers+beginWith.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A880AA1B49127D9D71DF12D3832E7D /* EXPMatchers+beginWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -161,6 +165,10 @@
 		0125D320FDD50FCA5C7066D976DEABAE /* EXPMatchers+beInTheRangeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInTheRangeOf.m"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.m"; sourceTree = "<group>"; };
 		02B718F336D7F2A802B83F23DC317384 /* EXPMatchers+beGreaterThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.m"; sourceTree = "<group>"; };
 		0321CFA0445CA40BDCD6919BFCD68A36 /* SPTSharedExampleGroups.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSharedExampleGroups.m; path = Specta/Specta/SPTSharedExampleGroups.m; sourceTree = "<group>"; };
+		03F09A3825E79CCC00864542 /* KTVideoDecoder_H264.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KTVideoDecoder_H264.h; path = KTDirectSeedingSDK/Classes/VideoService/KTVideoDecoder_H264.h; sourceTree = "<group>"; };
+		03F09A3925E79CCC00864542 /* KTVideoDecoder_H264.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KTVideoDecoder_H264.m; path = KTDirectSeedingSDK/Classes/VideoService/KTVideoDecoder_H264.m; sourceTree = "<group>"; };
+		03F09A4D25E7A9B800864542 /* KTVideoEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KTVideoEncoder.h; path = KTDirectSeedingSDK/Classes/VideoService/KTVideoEncoder.h; sourceTree = "<group>"; };
+		03F09A4E25E7A9B800864542 /* KTVideoEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KTVideoEncoder.m; path = KTDirectSeedingSDK/Classes/VideoService/KTVideoEncoder.m; sourceTree = "<group>"; };
 		03F8079341ED2802C4A9649F9439C07F /* Expecta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-umbrella.h"; sourceTree = "<group>"; };
 		059650BC2701690DEC7AE4BC28A640E1 /* SPTSharedExampleGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSharedExampleGroups.h; path = Specta/Specta/SPTSharedExampleGroups.h; sourceTree = "<group>"; };
 		06845B42810A18ABA0F6AA6A5ACF0218 /* Expecta-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Expecta-Info.plist"; sourceTree = "<group>"; };
@@ -609,6 +617,10 @@
 			children = (
 				4EFA7B492060A7C79904BB67B9D5E35C /* KTVideoCapturer.h */,
 				9B6935D7ECDE5EB2DB78B83EC15642F2 /* KTVideoCapturer.m */,
+				03F09A3825E79CCC00864542 /* KTVideoDecoder_H264.h */,
+				03F09A3925E79CCC00864542 /* KTVideoDecoder_H264.m */,
+				03F09A4D25E7A9B800864542 /* KTVideoEncoder.h */,
+				03F09A4E25E7A9B800864542 /* KTVideoEncoder.m */,
 				CF24D6635C565073EA6E8F9EAA95058B /* Pod */,
 				39FD1A6A6623F9AC9DFDF25B967EFC9C /* Support Files */,
 			);
@@ -723,6 +735,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03F09A4F25E7A9B800864542 /* KTVideoEncoder.h in Headers */,
+				03F09A3A25E79CCC00864542 /* KTVideoDecoder_H264.h in Headers */,
 				5B10782D94C8E5E56964F6465F755BA5 /* KTDirectSeedingSDK-umbrella.h in Headers */,
 				87F24C3A73A2DE8007931E36E7AB947E /* KTVideoCapturer.h in Headers */,
 			);
@@ -933,6 +947,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03F09A3B25E79CCC00864542 /* KTVideoDecoder_H264.m in Sources */,
+				03F09A5025E7A9B800864542 /* KTVideoEncoder.m in Sources */,
 				CBED2E5C744683DFF81766A7A46175BA /* KTDirectSeedingSDK-dummy.m in Sources */,
 				11A701535706868AA9CA8AF04FB5361B /* KTVideoCapturer.m in Sources */,
 			);

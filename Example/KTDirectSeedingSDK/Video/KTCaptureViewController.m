@@ -10,10 +10,14 @@
     
 
 #import "KTCaptureViewController.h"
-#import "KTVideoCapturer.h"
+#import "KTVideoCapturer.h"  // 视频采集
+#import "KTVideoEncoder.h"   // 视频编码
+#import "KTFileManager.h"    // 文件操作
+#import "KTVideoDecoder_H264.h" // 视频H264解码
 
-@interface KTCaptureViewController ()<KTVideoCapturerProtocol>
+@interface KTCaptureViewController ()<KTVideoCapturerDelegate, KTVideoEncoderDelegate, KTVideoH264DecoderDelegate>
 
+#pragma mark -- 视频采集部分
 /// 视频采集
 @property (nonatomic, strong) KTVideoCapturer *videoCapturer;
 
@@ -22,6 +26,21 @@
 
 /// 视频采集图像显示
 @property (nonatomic, strong) AVCaptureVideoPreviewLayer *previewLayer;
+
+#pragma mark -- 视频编码部分
+
+/// 视频编码器参数
+@property (nonatomic, strong) KTVideoEncoderParam *videoEncoderParamers;
+
+/// 视频编码器
+@property (nonatomic, strong) KTVideoEncoder *videoEncoder;
+
+/// 编码后数据写入文件路径
+@property (nonatomic, copy) NSString *encoderFilePath;
+
+#pragma mark -- 视频解码部分
+/// H264视频解码器
+@property (nonatomic, strong) KTVideoDecoder_H264 *videoDecoder;
 
 @end
 
@@ -36,34 +55,31 @@
 - (void)initializeViews {
     self.title = @"视频采集";
     self.view.backgroundColor = [UIColor whiteColor];
-    UIButton *cameraButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    cameraButton.frame = CGRectMake(10, 74, 80, 44);
-    cameraButton.titleLabel.font = [UIFont systemFontOfSize:12];
-    [cameraButton setTitle:@"开始采集" forState:UIControlStateNormal];
-    [cameraButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    [cameraButton setBackgroundColor:[UIColor lightGrayColor]];
-    [cameraButton addTarget:self action:@selector(videoCaptureButtonClick:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:cameraButton];
 
-    UIButton *revertButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    revertButton.frame = CGRectMake(10 + 80 + 10, 74, 80, 44);
-    revertButton.titleLabel.font = [UIFont systemFontOfSize:12];
-    [revertButton setTitle:@"切换摄像头" forState:UIControlStateNormal];
-    [revertButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    [revertButton setBackgroundColor:[UIColor lightGrayColor]];
-    [revertButton addTarget:self action:@selector(videoRevertButtonClick:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:revertButton];
-
-    UIButton *caputureButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    caputureButton.frame = CGRectMake(10 + 80 + 10 + 10 + 80, 74, 80, 44);
-    caputureButton.titleLabel.font = [UIFont systemFontOfSize:12];
-    [caputureButton setTitle:@"获取截图" forState:UIControlStateNormal];
-    [caputureButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    [caputureButton setBackgroundColor:[UIColor lightGrayColor]];
-    [caputureButton addTarget:self action:@selector(imageCapture) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:caputureButton];
+    CGFloat x = 10;
+    CGFloat y = 74;
+    CGFloat width = 80;
+    CGFloat height = 44;
+    
+    [self addButtonToViewWith:@"开始采集" frame:CGRectMake(x, y, width, height) selector:@selector(videoCaptureButtonClick:)];
+    [self addButtonToViewWith:@"切换摄像头" frame:CGRectMake(2 * x + width, y, width, height) selector:@selector(videoRevertButtonClick:)];
+    [self addButtonToViewWith:@"获取截图" frame:CGRectMake(3 * x + 2 * width, y, width, height) selector:@selector(imageCapture)];
+    [self addButtonToViewWith:@"开始编码" frame:CGRectMake(4 * x + 3 * width, y, width, height) selector:@selector(encodeVideoData:)];
 }
 
+#pragma mark -- 添加button
+- (void)addButtonToViewWith:(NSString *)buttonTitle
+                      frame:(CGRect)frame
+                   selector:(SEL)selector {
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = frame;
+    button.titleLabel.font = [UIFont systemFontOfSize:12.f];
+    [button setTitle:buttonTitle forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [button setBackgroundColor:[UIColor lightGrayColor]];
+    [button addTarget:self action:selector forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
 #pragma mark -- Button事件
 /// 采集
 - (void)videoCaptureButtonClick:(UIButton *)button {
@@ -93,9 +109,44 @@
     }];
 }
 
-#pragma mark -- KTVideoCapturerProtocol
+/// 视频编码
+- (void)encodeVideoData:(UIButton *)button {
+    button.selected = !button.selected;
+    if (button.selected) {
+        // 开始编码视频
+        // 保留一份当前录制的H264数据
+        if ([[KTFileManager shareInstance] isFileExit:self.encoderFilePath]) {
+            [[KTFileManager shareInstance] removeFile:self.encoderFilePath];
+        }
+        [button setTitle:@"停止编码" forState:UIControlStateNormal];
+        if ([self.videoEncoder startVideoEncode]) {
+            NSLog(@"-------------------------开始进行H264编码操作-------------------------");
+        }
+    } else {
+        // 停止编码视频
+        [button setTitle:@"开始编码" forState:UIControlStateNormal];
+        if ([self.videoEncoder stopVideoEncode]) {
+            NSLog(@"-------------------------停止进行H264编码操作-------------------------");
+        }
+    }
+}
+
+#pragma mark -- 视频采集 KTVideoCapturerDelegate
 - (void)captureOutput:(AVCaptureOutput *)output didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer fromConnection:(AVCaptureConnection *)connection {
-    NSLog(@"采集到的图像数据 ：%@", sampleBuffer);
+    [self.videoEncoder videoEncodeInputData:sampleBuffer forceKeyFrame:NO];
+}
+
+#pragma mark -- 视频编码 KTVideoEncoderDelegate
+- (void)videoEncodeOutputDataCallback:(NSData *)outputData isKeyFrame:(BOOL)isKeyFrame {
+    // 编码后数据写入文件 可选
+    [[KTFileManager shareInstance] writeFileAsync:self.encoderFilePath data:outputData seekToEnd:YES];
+    // 原始nalu数据 进行解码操作
+    [self.videoDecoder decodeNaluData:outputData];
+}
+
+#pragma mark -- 视频解码 KTVideoH264DecoderDelegate
+- (void)videoDecodeOutputDataCallback:(CVImageBufferRef)imageBuffer {
+    NSLog(@"实时解码数据 %@", imageBuffer);
 }
 
 #pragma mark -- 懒加载
@@ -127,5 +178,41 @@
         _previewLayer.frame = CGRectMake(layerMargin, layerY, layerW, layerH);
     }
     return _previewLayer;
+}
+
+- (KTVideoEncoderParam *)videoEncoderParamers {
+    if (!_videoEncoderParamers) {
+        _videoEncoderParamers = [[KTVideoEncoderParam alloc] init];
+        _videoEncoderParamers.allowFrameReordering = YES;
+        _videoEncoderParamers.encodeWidth = 375.f;
+        _videoEncoderParamers.encodeHeight = 667.f;
+        _videoEncoderParamers.maxKeyFrameInterval = 10;
+    }
+    return _videoEncoderParamers;
+}
+
+- (KTVideoEncoder *)videoEncoder {
+    if (!_videoEncoder) {
+        _videoEncoder = [[KTVideoEncoder alloc] initWithParam:self.videoEncoderParamers];
+        _videoEncoder.delegate = self;
+    }
+    return _videoEncoder;
+}
+
+- (NSString *)encoderFilePath {
+    if (!_encoderFilePath) {
+        NSArray *paths  = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask,YES);
+        NSString *homePath = [paths objectAtIndex:0];
+        _encoderFilePath = [homePath stringByAppendingPathComponent:@"encoderH264"];
+    }
+    return _encoderFilePath;
+}
+
+- (KTVideoDecoder_H264 *)videoDecoder {
+    if (!_videoDecoder) {
+        _videoDecoder = [[KTVideoDecoder_H264 alloc] init];
+        _videoDecoder.delegate = self;
+    }
+    return _videoDecoder;
 }
 @end

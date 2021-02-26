@@ -11,6 +11,8 @@
 #endif
 
 #import "KTVideoCapturer.h"
+#import "KTVideoDecoder_H264.h"
+#import "KTVideoEncoder.h"
 
 FOUNDATION_EXPORT double KTDirectSeedingSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char KTDirectSeedingSDKVersionString[];

@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03F099C125E64A4900864542 /* KTVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F099C025E64A4900864542 /* KTVideoViewController.m */; };
 		03F099C825E64AFE00864542 /* KTCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F099C725E64AFE00864542 /* KTCaptureViewController.m */; };
+		03F09A7E25E7E70600864542 /* KTFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F09A7D25E7E70600864542 /* KTFileManager.m */; };
+		03F09A8D25E896B200864542 /* encoderH264 in Resources */ = {isa = PBXBuildFile; fileRef = 03F09A8C25E896B200864542 /* encoderH264 */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,10 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03F099BF25E64A4900864542 /* KTVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTVideoViewController.h; sourceTree = "<group>"; };
-		03F099C025E64A4900864542 /* KTVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTVideoViewController.m; sourceTree = "<group>"; };
 		03F099C625E64AFE00864542 /* KTCaptureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTCaptureViewController.h; sourceTree = "<group>"; };
 		03F099C725E64AFE00864542 /* KTCaptureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTCaptureViewController.m; sourceTree = "<group>"; };
+		03F09A7C25E7E70600864542 /* KTFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTFileManager.h; sourceTree = "<group>"; };
+		03F09A7D25E7E70600864542 /* KTFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTFileManager.m; sourceTree = "<group>"; };
+		03F09A8C25E896B200864542 /* encoderH264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = encoderH264; sourceTree = "<group>"; };
 		3E0A28E594733FBF3538FC44 /* Pods_KTDirectSeedingSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KTDirectSeedingSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		449A70E48231F53AB08F09F0 /* Pods-KTDirectSeedingSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTDirectSeedingSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-KTDirectSeedingSDK_Example/Pods-KTDirectSeedingSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5D169BA758ACAF38F42EFBDB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -104,6 +106,8 @@
 		03F099B225E6481200864542 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				03F09A7C25E7E70600864542 /* KTFileManager.h */,
+				03F09A7D25E7E70600864542 /* KTFileManager.m */,
 			);
 			path = Plugins;
 			sourceTree = "<group>";
@@ -111,8 +115,6 @@
 		03F099B725E64A2100864542 /* Video */ = {
 			isa = PBXGroup;
 			children = (
-				03F099BF25E64A4900864542 /* KTVideoViewController.h */,
-				03F099C025E64A4900864542 /* KTVideoViewController.m */,
 				03F099C625E64AFE00864542 /* KTCaptureViewController.h */,
 				03F099C725E64AFE00864542 /* KTCaptureViewController.m */,
 			);
@@ -156,6 +158,7 @@
 		6003F593195388D20070C39A /* Example for KTDirectSeedingSDK */ = {
 			isa = PBXGroup;
 			children = (
+				03F09A8C25E896B200864542 /* encoderH264 */,
 				03F099B725E64A2100864542 /* Video */,
 				03F099B225E6481200864542 /* Plugins */,
 				6003F59C195388D20070C39A /* KTAppDelegate.h */,
@@ -309,6 +312,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				03F09A8D25E896B200864542 /* encoderH264 in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -418,7 +422,7 @@
 				6003F5A7195388D20070C39A /* KTViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				03F099C825E64AFE00864542 /* KTCaptureViewController.m in Sources */,
-				03F099C125E64A4900864542 /* KTVideoViewController.m in Sources */,
+				03F09A7E25E7E70600864542 /* KTFileManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
