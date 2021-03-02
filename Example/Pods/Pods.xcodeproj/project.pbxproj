@@ -10,6 +10,8 @@
 		008A37B2A63BC1F3E33557FEF5BEE189 /* NSValue+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B790BA3DDD31E30AA56D143221808F /* NSValue+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00B3EF135DE4634D6FA1E5EF15239824 /* EXPMatchers+endWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 51086B5967720918118676ADC2E04F05 /* EXPMatchers+endWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		03F834EA25EE1A8B001556E2 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 03F834E925EE1A8B001556E2 /* Shaders.metal */; };
+		03F8352925EE2E9E001556E2 /* KTVideoStreamPlayLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F8352725EE2E9E001556E2 /* KTVideoStreamPlayLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03F8352A25EE2E9E001556E2 /* KTVideoStreamPlayLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F8352825EE2E9E001556E2 /* KTVideoStreamPlayLayer.m */; };
 		0475A9EA5F07D6B60E1135A35541C3C3 /* Specta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68C600495790C3CA74CAF7323014D0B6 /* Specta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05BCAED08DADF67CC4711A102262D9AB /* EXPMatchers+equal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA39E2AE0A0E3E07FABF3883D3D2480 /* EXPMatchers+equal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		05CFF6618B87EDE2069D4C5D3DDFF9EB /* EXPMatchers+beginWith.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A880AA1B49127D9D71DF12D3832E7D /* EXPMatchers+beginWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -172,6 +174,8 @@
 		0321CFA0445CA40BDCD6919BFCD68A36 /* SPTSharedExampleGroups.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSharedExampleGroups.m; path = Specta/Specta/SPTSharedExampleGroups.m; sourceTree = "<group>"; };
 		03F8079341ED2802C4A9649F9439C07F /* Expecta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-umbrella.h"; sourceTree = "<group>"; };
 		03F834E925EE1A8B001556E2 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		03F8352725EE2E9E001556E2 /* KTVideoStreamPlayLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTVideoStreamPlayLayer.h; sourceTree = "<group>"; };
+		03F8352825EE2E9E001556E2 /* KTVideoStreamPlayLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTVideoStreamPlayLayer.m; sourceTree = "<group>"; };
 		059650BC2701690DEC7AE4BC28A640E1 /* SPTSharedExampleGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSharedExampleGroups.h; path = Specta/Specta/SPTSharedExampleGroups.h; sourceTree = "<group>"; };
 		06845B42810A18ABA0F6AA6A5ACF0218 /* Expecta-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Expecta-Info.plist"; sourceTree = "<group>"; };
 		08F7F0770B4878B9883B87DCD8569CB4 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -497,6 +501,8 @@
 				328FA35D9ED8A3EC191A5CFD02D3ED5C /* KTMetalPlayer.h */,
 				94C57233FFE2CCA3A5FF2DE6D8E600E9 /* KTMetalPlayer.m */,
 				03F834E925EE1A8B001556E2 /* Shaders.metal */,
+				03F8352725EE2E9E001556E2 /* KTVideoStreamPlayLayer.h */,
+				03F8352825EE2E9E001556E2 /* KTVideoStreamPlayLayer.m */,
 			);
 			name = KTRenderService;
 			sourceTree = "<group>";
@@ -697,6 +703,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CFCBD137A406239D165B945B6923912 /* KTAudioCapturer.h in Headers */,
+				03F8352925EE2E9E001556E2 /* KTVideoStreamPlayLayer.h in Headers */,
 				C5C606B799362FB687670A92114D2717 /* KTDirectSeedingSDK-umbrella.h in Headers */,
 				16A6DFA262D0F87BAAE5C482C0E5AB01 /* KTMetalPlayer.h in Headers */,
 				CDB9C58A5DBC60DAC5C115812411C9F6 /* KTVideoCapturer.h in Headers */,
@@ -1038,6 +1045,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03F8352A25EE2E9E001556E2 /* KTVideoStreamPlayLayer.m in Sources */,
 				8F501FF1D1F34675B40A1B1CC652BF52 /* KTAudioCapturer.m in Sources */,
 				03F834EA25EE1A8B001556E2 /* Shaders.metal in Sources */,
 				DAD360148904DA2F7D1C061811E6A8C5 /* KTDirectSeedingSDK-dummy.m in Sources */,

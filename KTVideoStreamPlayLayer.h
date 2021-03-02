@@ -1,6 +1,6 @@
 //
 
-// KTMetalPlayer.h
+// KTVideoStreamPlayLayer.h
 // KTDirectSeedingSDK
 
 // Created by KestralTorah (郭炜) on 2021/3/2
@@ -8,7 +8,7 @@
 // 
 
 /**
- 基于metal的渲染类 输入CVPixelBufferRef类型
+ 基于OpenGLES的渲染类 输入CVPixelBufferRef类型
 
  */
 
@@ -17,15 +17,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface KTMetalPlayer : CAMetalLayer
-
-/** 动态调整播放器 */
-- (void)adjustFrame:(CGRect)frame;
-
-- (void)inputPixelBuffer:(CVPixelBufferRef)pixelBuffer;
+@interface KTVideoStreamPlayLayer : CAEAGLLayer
 
 /** 根据frame初始化播放器 */
-- (instancetype)initWithFrame:(CGRect)frame;
+- (id)initWithFrame:(CGRect)frame;
+
+- (void)inputPixelBuffer:(CVPixelBufferRef)pixelBuffer;
 
 @end
 

@@ -45,8 +45,6 @@ typedef struct {
     MTLRenderPassDescriptor *_renderPassDescriptor;
 
     // controller
-    CADisplayLink *_timer;
-    BOOL _gameLoopPaused;
     dispatch_semaphore_t _inflight_semaphore;
 
     // renderer
@@ -65,13 +63,6 @@ typedef struct {
     CVMetalTextureCacheRef _textureCache;
 }
 
-
-- (void)dealloc
-{
-    [_timer invalidate];
-}
-
-
 - (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super init];
@@ -82,9 +73,6 @@ typedef struct {
         [self _setupMetalWithFrame:frame];
         [self _setupCapture];
         [self _loadAssets];
-
-//        _timer = [CADisplayLink displayLinkWithTarget:self selector:@selector(_gameloop)];
-//        [_timer addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSDefaultRunLoopMode];
     }
     return self;
 }
