@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KTDirectSeedingSDK'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of KTDirectSeedingSDK.'
   s.description  = <<-DESC
                     this project provide direct seeding module
@@ -21,6 +21,16 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'KTDirectSeedingSDK/Classes/**/*'
+  s.subspec 'KTVideoService' do |video|
+    video.source_files = 'KTDirectSeedingSDK/Classes/VideoService/*'
+  end
+
+  s.subspec 'KTAudioService' do |audio|
+    audio.source_files = 'KTDirectSeedingSDK/Classes/AudioService/*'
+  end
+
+  s.subspec 'KTRenderService' do |render|
+    render.source_files = 'KTDirectSeedingSDK/Classes/RenderService/*'
+  end
 
 end

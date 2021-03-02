@@ -9,20 +9,18 @@
 /* Begin PBXBuildFile section */
 		008A37B2A63BC1F3E33557FEF5BEE189 /* NSValue+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B790BA3DDD31E30AA56D143221808F /* NSValue+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00B3EF135DE4634D6FA1E5EF15239824 /* EXPMatchers+endWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 51086B5967720918118676ADC2E04F05 /* EXPMatchers+endWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		03F09A3A25E79CCC00864542 /* KTVideoDecoder_H264.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F09A3825E79CCC00864542 /* KTVideoDecoder_H264.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		03F09A3B25E79CCC00864542 /* KTVideoDecoder_H264.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F09A3925E79CCC00864542 /* KTVideoDecoder_H264.m */; };
-		03F09A4F25E7A9B800864542 /* KTVideoEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F09A4D25E7A9B800864542 /* KTVideoEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		03F09A5025E7A9B800864542 /* KTVideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F09A4E25E7A9B800864542 /* KTVideoEncoder.m */; };
+		03F834EA25EE1A8B001556E2 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 03F834E925EE1A8B001556E2 /* Shaders.metal */; };
 		0475A9EA5F07D6B60E1135A35541C3C3 /* Specta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68C600495790C3CA74CAF7323014D0B6 /* Specta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05BCAED08DADF67CC4711A102262D9AB /* EXPMatchers+equal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA39E2AE0A0E3E07FABF3883D3D2480 /* EXPMatchers+equal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		05CFF6618B87EDE2069D4C5D3DDFF9EB /* EXPMatchers+beginWith.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A880AA1B49127D9D71DF12D3832E7D /* EXPMatchers+beginWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		06F842D617FB7015C5798852A4E3F359 /* SPTCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = AD36087967C18479C0A2F540B4438141 /* SPTCallSite.m */; };
 		0DE0AA588BC61692033B67CFCE4EC742 /* EXPMatchers+beSubclassOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A53700542065CC24914306F32E83943 /* EXPMatchers+beSubclassOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		114C2163DAE74196CAF6FA2E5FB633D7 /* NSObject+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = C9772B093039F7BCADE184B01A457D8C /* NSObject+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11A701535706868AA9CA8AF04FB5361B /* KTVideoCapturer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6935D7ECDE5EB2DB78B83EC15642F2 /* KTVideoCapturer.m */; };
 		12C14FE4834134BC916F8DD42B875D3B /* EXPMatchers+beLessThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = A400F6B9197409A428DB3B9DF7A0765D /* EXPMatchers+beLessThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		140394F97EEF0A95AB171649249F211C /* EXPMatchers+beTruthy.m in Sources */ = {isa = PBXBuildFile; fileRef = 626828D31F7FFEE4D9F497D7966D3BA9 /* EXPMatchers+beTruthy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		150BCA95E25ABB7A89383012EA300C77 /* KTVideoEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 63A87718D3B98618789964D451674C8D /* KTVideoEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15C0054801F96BA3329545B1FAA6A85E /* EXPMatchers+haveCountOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F4911FA0AC532C296638451881684C /* EXPMatchers+haveCountOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		16A6DFA262D0F87BAAE5C482C0E5AB01 /* KTMetalPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 328FA35D9ED8A3EC191A5CFD02D3ED5C /* KTMetalPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		188A55E8570219DC971027460C2BCF1B /* EXPMatchers+beSubclassOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 10ABE6CBD5572D636D1448F5C0A65F33 /* EXPMatchers+beSubclassOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		19621E59AF2C3772FF6290740DB6EAB4 /* NSValue+Expecta.m in Sources */ = {isa = PBXBuildFile; fileRef = A6785D611ED60D8B0EC004F4E7479B16 /* NSValue+Expecta.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1CF5E91F1AE39E4CA72E7CB9DC066BC5 /* EXPMatchers+raiseWithReason.h in Headers */ = {isa = PBXBuildFile; fileRef = 501E57A78436A4163896FB168F872D8D /* EXPMatchers+raiseWithReason.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,6 +43,7 @@
 		3C5E21003A743A7AE12E2ED6A68791C9 /* SPTExampleGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 744DABD0BD3742D6276794A5B249BF29 /* SPTExampleGroup.m */; };
 		3C82710DF39F627A44AE7067B65F92C7 /* EXPMatchers+raise.h in Headers */ = {isa = PBXBuildFile; fileRef = 7974E444DCE8B8C95B369E1FA49F0C46 /* EXPMatchers+raise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DB6607AA00EDF662D4328EA4F9C44EC /* EXPBlockDefinedMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE3433972F32B363968995F5E99D215 /* EXPBlockDefinedMatcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4001F0F7CF72BC7354BB2DAB97F976B4 /* KTVideoDecoder_H264.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A5111EBD770E69C688EE9C2277017C /* KTVideoDecoder_H264.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		416D3BE841B08CED03D16649957ECB10 /* ExpectaSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8052780F2D10385467C68D2FFCBFFFE8 /* ExpectaSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41B490A5CB6565458F1F507A8AD0FB45 /* EXPMatchers.h in Headers */ = {isa = PBXBuildFile; fileRef = 62157114474A33C252A8BD92DAB859A7 /* EXPMatchers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46ACAF12638940470981FA6689B0469F /* EXPMatchers+beGreaterThan.m in Sources */ = {isa = PBXBuildFile; fileRef = 267B869C186565B3F8353CD9DAD1E80F /* EXPMatchers+beGreaterThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -58,9 +57,9 @@
 		521CCD99D4003505D4B65A4131BAFB22 /* EXPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = BAABA40792B0344C3E185F9FBC553B38 /* EXPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5242CFE182637D4BCCAC9E0BCC4483C4 /* EXPBlockDefinedMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B2E7C19388671439133D10116E96EDCE /* EXPBlockDefinedMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59D34E8065607E956AC2DC046E76B743 /* EXPMatchers+conformTo.h in Headers */ = {isa = PBXBuildFile; fileRef = CBB8B84CE88B4791589AA36CD1EF71F2 /* EXPMatchers+conformTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B10782D94C8E5E56964F6465F755BA5 /* KTDirectSeedingSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 374026DD5FD4AC0FDCBC99BA8C386080 /* KTDirectSeedingSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C6754FDD1DFAD63B3689EE5A7897F01 /* EXPMatchers+beCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B04CCD11D71B8DA01323427A6618DB4 /* EXPMatchers+beCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C8A35F9659B4241B5949C9056269389 /* SPTCompiledExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBBFD330B5D79D8404F1344BC8E76B9 /* SPTCompiledExample.m */; };
+		5CFCBD137A406239D165B945B6923912 /* KTAudioCapturer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7010B2608CFCC836E668863F380B5456 /* KTAudioCapturer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DD71838737687E6FA4583D98B08D7D4 /* EXPMatchers+beInTheRangeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 0125D320FDD50FCA5C7066D976DEABAE /* EXPMatchers+beInTheRangeOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		61CA94EF2639807466427720DA2091C6 /* EXPDoubleTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E951EB6234E81F078F3EDE744206C5F /* EXPDoubleTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		63A0BE650141BBE5D9F57E42A36C7CE5 /* SpectaUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = A96AB2161AC135AB694363282EDF58A3 /* SpectaUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -72,6 +71,7 @@
 		6B5E990838B241B56A5F19E90FEFCD72 /* SpectaDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FE493A9150E104EC776C299BB6CC85 /* SpectaDSL.m */; };
 		6E8A45EF6CD46D90A634E1E9163E562E /* EXPMatchers+beFalsy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9B016FE7343AFC9DB3B9E34769710E /* EXPMatchers+beFalsy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		702967C038BEB81CD0B436966B9089E1 /* Pods-KTDirectSeedingSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC0275A456126E2D4753D844BC35BA2 /* Pods-KTDirectSeedingSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		705CA92142A45A53A92D728296257867 /* KTVideoCapturer.m in Sources */ = {isa = PBXBuildFile; fileRef = F686E4EA6FA964E60213087172297565 /* KTVideoCapturer.m */; };
 		7709CF64039955B3BAF42CDA38E0F96F /* EXPMatchers+contain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCEBD6BE320FDFBD6C4CE2FBFC4088E /* EXPMatchers+contain.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		777DB2CAF42F78F06C61F9A4AA3AD09C /* EXPUnsupportedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C3AFDD2A4912369B9775E4F5AB38F85C /* EXPUnsupportedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7967AB2E31F5D064244EB23735D0B3E8 /* ExpectaSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF764DB2C57A1C2185C929CACDA787C /* ExpectaSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -81,18 +81,21 @@
 		821F025A006CB157497E83C0EC102052 /* Expecta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F8079341ED2802C4A9649F9439C07F /* Expecta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86AF47F4D2229BC576C54BA1FE1DD940 /* XCTestCase+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 84877D89FE5B1486CFDC4152C2D27688 /* XCTestCase+Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		87072DD7C1EC570007E5D0BEFDCA247A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBC8F300895E39EA0DF6D6B2B5E6BCD /* XCTest.framework */; };
+		871E7DEA5855AACF1DA3C574F372C60C /* KTVideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 309CDEDFE6FEB1B9004E0F3CC7523450 /* KTVideoEncoder.m */; };
 		873165886F20870B205EBE37F8185546 /* EXPMatchers+beNil.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B63FE2B0E8A200FD45B4C88AD9CC86E /* EXPMatchers+beNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87F24C3A73A2DE8007931E36E7AB947E /* KTVideoCapturer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EFA7B492060A7C79904BB67B9D5E35C /* KTVideoCapturer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88B1F2202F8E1BA69FF9FFD599C71A53 /* XCTestCase+Specta.m in Sources */ = {isa = PBXBuildFile; fileRef = 418665583867CCAFAE1E08A59285672D /* XCTestCase+Specta.m */; };
 		8B8CB2F1361DD1EA4711D54F596569F4 /* EXPMatcherHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAB03A578AE16502A5C72406DD68274 /* EXPMatcherHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E30B7DA0041E761CA840C538EC05152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */; };
 		8E79D808BDDDDEDE44F06E9755CF3F4D /* SpectaUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD6F789C64809BE240F873718FA5265 /* SpectaUtility.m */; };
+		8F501FF1D1F34675B40A1B1CC652BF52 /* KTAudioCapturer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C286911848909DDB11CD3FA21A00826 /* KTAudioCapturer.m */; };
 		91F08081D0286CC0733C2D5A9B4A8F32 /* EXPMatchers+raise.m in Sources */ = {isa = PBXBuildFile; fileRef = D72D4C3911D235EF89DCA93641D238BB /* EXPMatchers+raise.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		93076F6F0B96EAD80F67BC760A3FC0AD /* SPTTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C142630DF7616A552145B5F5E1FE5F /* SPTTestSuite.m */; };
+		93273259F3C7C58CDE1FE25022B42FA0 /* KTVideoDecoder_H264.m in Sources */ = {isa = PBXBuildFile; fileRef = 839409F29603BDF6C6472C8D681AB0B8 /* KTVideoDecoder_H264.m */; };
 		96BC54118F99CACBCEDE0B64784E0737 /* Expecta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB73890739F1D1864A3FA48A2E37F157 /* Expecta-dummy.m */; };
 		97D9A825385A35B046B1DFF01F24136F /* Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3024BCB728114C9517479C42338F82 /* Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9AC1A3902FC9162C9B432B411928B215 /* EXPMatchers+beLessThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = F54C4B4E9A2D9A0D88F2852FD1466E59 /* EXPMatchers+beLessThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A2AA6E5CCEE63D4AF62A3D9D2276D042 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */; };
+		A2F3E08E5D57C902B7278CC6218695F3 /* KTMetalPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C57233FFE2CCA3A5FF2DE6D8E600E9 /* KTMetalPlayer.m */; };
 		ACBDE7479CEDFD9F3261E26D6B1015FC /* EXPMatchers+haveCountOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EF9157831B87F7B1EEEF850B09E1445 /* EXPMatchers+haveCountOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0556227077A1AEED50A9562603FCF05 /* SPTExample.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DA2D06A1237EE72CE03D4ED1C91BB3 /* SPTExample.m */; };
 		B24C0951E730C8D7B6539598555A0126 /* EXPMatchers+match.m in Sources */ = {isa = PBXBuildFile; fileRef = F1688222BBCFCCCC2670A2801EC16937 /* EXPMatchers+match.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -104,13 +107,15 @@
 		C086824CEEDD952FAF0311B7FD8957FB /* SPTTestSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = F703EBE7600167825031EF253EBABABC /* SPTTestSuite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C18FBD6CD221CAFD1AF15CC99A48CB84 /* EXPMatchers+beFalsy.h in Headers */ = {isa = PBXBuildFile; fileRef = EEADFB2299B31A680BC1BD285E8872CC /* EXPMatchers+beFalsy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4632B64DD0F3ADB3BB829A6EBC322E6 /* EXPMatcherHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDCD8C59420DCE7D4A6267D2F0D5F40 /* EXPMatcherHelpers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C5C606B799362FB687670A92114D2717 /* KTDirectSeedingSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58ECE947381063FD276CEED32474D7A4 /* KTDirectSeedingSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C6C0289D7DBCDA998DD932E0CC16FECA /* Pods-KTDirectSeedingSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 182800E5B91E4A83C12416C53629466A /* Pods-KTDirectSeedingSDK_Example-dummy.m */; };
 		C86AC684A3B10B92FDDF2340F7A3ADD4 /* SPTCallSite.h in Headers */ = {isa = PBXBuildFile; fileRef = 834D574DAAD1150C15D17D52E386BEC5 /* SPTCallSite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAEE0E44BC37459BD49C0B1D626B0477 /* EXPMatchers+postNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F9ADBDA4B3EBAE6C43B435A2D5E5F1 /* EXPMatchers+postNotification.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		CBED2E5C744683DFF81766A7A46175BA /* KTDirectSeedingSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD725B2CA7AAF6992BA09F1B28C17F2 /* KTDirectSeedingSDK-dummy.m */; };
+		CDB9C58A5DBC60DAC5C115812411C9F6 /* KTVideoCapturer.h in Headers */ = {isa = PBXBuildFile; fileRef = 468E710A8C46C0115517703F0A7864F3 /* KTVideoCapturer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDEE6FEA0578E83E3F3DB2EEA4C6B631 /* Pods-KTDirectSeedingSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2FC1E0BD37716EEC8381536684C8510 /* Pods-KTDirectSeedingSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D327EEB8522F6389513EB84ACF12F242 /* EXPMatchers+endWith.m in Sources */ = {isa = PBXBuildFile; fileRef = C346FB385E646787BCDA910EA29E552E /* EXPMatchers+endWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D5C3E91A2121AE27F99028292B9436A8 /* EXPMatchers+postNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DFAADECAC34707F7DDB000FED3C6F77 /* EXPMatchers+postNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAD360148904DA2F7D1C061811E6A8C5 /* KTDirectSeedingSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 509254C687C33271B71F6A0B0790FB47 /* KTDirectSeedingSDK-dummy.m */; };
 		DB3C194E927FF147C0B12238CEB0B51A /* SPTExcludeGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = 1720DD77632119A9AE92F1EDE0507651 /* SPTExcludeGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBFF33BEB222CF58005C06FF0CD556DF /* EXPExpect.h in Headers */ = {isa = PBXBuildFile; fileRef = A2007DAF76851C515B41D1AAEE130286 /* EXPExpect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC1E8FE0E273E02989FFDAAEA814440E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */; };
@@ -121,7 +126,7 @@
 		E791EEB9E7DA8C5DBDFF80A2BA7A6A4F /* EXPMatchers+respondTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 476A0452433AA98C5A7ECD63C9DAD8C9 /* EXPMatchers+respondTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E969F8D679A40C630D2E855651A49D90 /* EXPMatchers+contain.h in Headers */ = {isa = PBXBuildFile; fileRef = CEBFA44EC572BCBEC15CA8C3DEFF075C /* EXPMatchers+contain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC57F974317D76B799CFE2A018B5F9E2 /* EXPMatchers+beNil.m in Sources */ = {isa = PBXBuildFile; fileRef = A833831525D5E4BA797A26D082A9B933 /* EXPMatchers+beNil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F040E2C536AFE6E78E5A5EC1E6D43F0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */; };
+		EEDE6CBEA7B973947181B3CD94F3A4D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */; };
 		F31CCBB90D75D9E5A83545FD95954FFA /* EXPMatchers+beCloseTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 800BA88A2B2AB351294257BFEB46D734 /* EXPMatchers+beCloseTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F3EDE6D241EE2A6D0992A24ACDDBAB35 /* EXPFloatTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E41E3E45D16283667C79A4FA48C31A /* EXPFloatTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F4591B9C7F70268A3F94B40ADDBA5202 /* EXPMatchers+beIdenticalTo.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDA180096A7A1AB430FDCA9B8D24337 /* EXPMatchers+beIdenticalTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -131,33 +136,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		041C635746731DE674C6F05CC5FDB4CB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 033591F8B298A3E03B9734CEEF9CEFCF;
-			remoteInfo = KTDirectSeedingSDK;
-		};
-		196530EB548651A8140640F705116AA5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4A4E39D7E59D41622488F661A849F82E;
-			remoteInfo = "Pods-KTDirectSeedingSDK_Example";
-		};
-		46F17D55CB6DC2D39CB78069815DA352 /* PBXContainerItemProxy */ = {
+		3E99326AC28C8C918F55A29306BD15A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F8676010755CF1530FC02DA9A0D8822B;
 			remoteInfo = Specta;
 		};
-		E4F3CF932739269D6B4E7E9864D28D9A /* PBXContainerItemProxy */ = {
+		672089338DBDD512B76877D7B1354DA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A4E39D7E59D41622488F661A849F82E;
+			remoteInfo = "Pods-KTDirectSeedingSDK_Example";
+		};
+		BB9DB84F31CA63C9399371A5A82C8E57 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DC371B7477C88184274EC6710690F97C;
 			remoteInfo = Expecta;
+		};
+		BD4923457D75E91E85AF63605EB2380A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 033591F8B298A3E03B9734CEEF9CEFCF;
+			remoteInfo = KTDirectSeedingSDK;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -165,16 +170,13 @@
 		0125D320FDD50FCA5C7066D976DEABAE /* EXPMatchers+beInTheRangeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInTheRangeOf.m"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.m"; sourceTree = "<group>"; };
 		02B718F336D7F2A802B83F23DC317384 /* EXPMatchers+beGreaterThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.m"; sourceTree = "<group>"; };
 		0321CFA0445CA40BDCD6919BFCD68A36 /* SPTSharedExampleGroups.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSharedExampleGroups.m; path = Specta/Specta/SPTSharedExampleGroups.m; sourceTree = "<group>"; };
-		03F09A3825E79CCC00864542 /* KTVideoDecoder_H264.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KTVideoDecoder_H264.h; path = KTDirectSeedingSDK/Classes/VideoService/KTVideoDecoder_H264.h; sourceTree = "<group>"; };
-		03F09A3925E79CCC00864542 /* KTVideoDecoder_H264.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KTVideoDecoder_H264.m; path = KTDirectSeedingSDK/Classes/VideoService/KTVideoDecoder_H264.m; sourceTree = "<group>"; };
-		03F09A4D25E7A9B800864542 /* KTVideoEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KTVideoEncoder.h; path = KTDirectSeedingSDK/Classes/VideoService/KTVideoEncoder.h; sourceTree = "<group>"; };
-		03F09A4E25E7A9B800864542 /* KTVideoEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KTVideoEncoder.m; path = KTDirectSeedingSDK/Classes/VideoService/KTVideoEncoder.m; sourceTree = "<group>"; };
 		03F8079341ED2802C4A9649F9439C07F /* Expecta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-umbrella.h"; sourceTree = "<group>"; };
+		03F834E925EE1A8B001556E2 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 		059650BC2701690DEC7AE4BC28A640E1 /* SPTSharedExampleGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSharedExampleGroups.h; path = Specta/Specta/SPTSharedExampleGroups.h; sourceTree = "<group>"; };
 		06845B42810A18ABA0F6AA6A5ACF0218 /* Expecta-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Expecta-Info.plist"; sourceTree = "<group>"; };
 		08F7F0770B4878B9883B87DCD8569CB4 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A82D120924010724DEECC5D414C6098 /* Pods-KTDirectSeedingSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KTDirectSeedingSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		0B9F4DEF50ED06AD193A990CB5E38AF8 /* KTDirectSeedingSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KTDirectSeedingSDK.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		0BB527892985A97412AEC9F66B773792 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0CBB9CDCEC6B1D260B7D18B3767E87D2 /* EXPMatchers+beKindOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beKindOf.h"; path = "Expecta/Matchers/EXPMatchers+beKindOf.h"; sourceTree = "<group>"; };
 		0DFAADECAC34707F7DDB000FED3C6F77 /* EXPMatchers+postNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+postNotification.h"; path = "Expecta/Matchers/EXPMatchers+postNotification.h"; sourceTree = "<group>"; };
 		10ABE6CBD5572D636D1448F5C0A65F33 /* EXPMatchers+beSubclassOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSubclassOf.m"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.m"; sourceTree = "<group>"; };
@@ -193,15 +195,18 @@
 		1D243F697671E863DE68D1F37EE3DCB6 /* EXPMatchers+beInTheRangeOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInTheRangeOf.h"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.h"; sourceTree = "<group>"; };
 		1DB951BF2B9EA4F1F59EDC9600A77E72 /* EXPFloatTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPFloatTuple.h; path = Expecta/EXPFloatTuple.h; sourceTree = "<group>"; };
 		23C142630DF7616A552145B5F5E1FE5F /* SPTTestSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTTestSuite.m; path = Specta/Specta/SPTTestSuite.m; sourceTree = "<group>"; };
+		254245100F1E53508D4F8D91655EEE27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		254A69415192B854EAE8AA4A7F914642 /* Pods-KTDirectSeedingSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KTDirectSeedingSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		267B869C186565B3F8353CD9DAD1E80F /* EXPMatchers+beGreaterThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThan.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.m"; sourceTree = "<group>"; };
+		28A5111EBD770E69C688EE9C2277017C /* KTVideoDecoder_H264.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTVideoDecoder_H264.h; path = KTDirectSeedingSDK/Classes/VideoService/KTVideoDecoder_H264.h; sourceTree = "<group>"; };
 		2A3CA84725DFB9F88A68C340826B0BE5 /* EXPMatchers+beInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInstanceOf.h"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.h"; sourceTree = "<group>"; };
 		2FCEBD6BE320FDFBD6C4CE2FBFC4088E /* EXPMatchers+contain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+contain.m"; path = "Expecta/Matchers/EXPMatchers+contain.m"; sourceTree = "<group>"; };
 		2FDCD8C59420DCE7D4A6267D2F0D5F40 /* EXPMatcherHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPMatcherHelpers.m; path = Expecta/Matchers/EXPMatcherHelpers.m; sourceTree = "<group>"; };
+		309CDEDFE6FEB1B9004E0F3CC7523450 /* KTVideoEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KTVideoEncoder.m; path = KTDirectSeedingSDK/Classes/VideoService/KTVideoEncoder.m; sourceTree = "<group>"; };
+		328FA35D9ED8A3EC191A5CFD02D3ED5C /* KTMetalPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTMetalPlayer.h; path = KTDirectSeedingSDK/Classes/RenderService/KTMetalPlayer.h; sourceTree = "<group>"; };
 		32C9B713C37ED2154E6EA7B3FC5E9627 /* EXPMatchers+beSupersetOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSupersetOf.m"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.m"; sourceTree = "<group>"; };
 		332AF7E3BE22041FF1B2982C5A4B539A /* EXPUnsupportedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPUnsupportedObject.m; path = Expecta/EXPUnsupportedObject.m; sourceTree = "<group>"; };
 		340D2601B4668BC30CB14F78C2A7E622 /* EXPMatchers+beKindOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beKindOf.m"; path = "Expecta/Matchers/EXPMatchers+beKindOf.m"; sourceTree = "<group>"; };
-		374026DD5FD4AC0FDCBC99BA8C386080 /* KTDirectSeedingSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KTDirectSeedingSDK-umbrella.h"; sourceTree = "<group>"; };
 		3B7698BC14348D11DB5988D50723090E /* Specta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.release.xcconfig; sourceTree = "<group>"; };
 		3BA70B8412B6A16E91F7CAA611429C7B /* Pods-KTDirectSeedingSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KTDirectSeedingSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		418665583867CCAFAE1E08A59285672D /* XCTestCase+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase+Specta.m"; path = "Specta/Specta/XCTestCase+Specta.m"; sourceTree = "<group>"; };
@@ -209,6 +214,7 @@
 		43E819FBEBA6827A9321DFDABFAEC8F7 /* Specta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Specta-dummy.m"; sourceTree = "<group>"; };
 		45BC35C0A41EEDE0F36F097C04A704E8 /* Pods-KTDirectSeedingSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KTDirectSeedingSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		45E563E2BFF92AAD6F6ABCC1D637A29C /* SpectaDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaDSL.h; path = Specta/Specta/SpectaDSL.h; sourceTree = "<group>"; };
+		468E710A8C46C0115517703F0A7864F3 /* KTVideoCapturer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTVideoCapturer.h; path = KTDirectSeedingSDK/Classes/VideoService/KTVideoCapturer.h; sourceTree = "<group>"; };
 		476A0452433AA98C5A7ECD63C9DAD8C9 /* EXPMatchers+respondTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+respondTo.h"; path = "Expecta/Matchers/EXPMatchers+respondTo.h"; sourceTree = "<group>"; };
 		4806AB85BEF89B09A786A7186E2CF8C0 /* EXPMatchers+beGreaterThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.h"; sourceTree = "<group>"; };
 		484F49895457AF6FAE8F4BFD8198B4DE /* Pods_KTDirectSeedingSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KTDirectSeedingSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -220,24 +226,27 @@
 		4E558F8EBB86DE9D6A42D59452442BE8 /* EXPMatchers+beSupersetOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSupersetOf.h"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.h"; sourceTree = "<group>"; };
 		4E951EB6234E81F078F3EDE744206C5F /* EXPDoubleTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPDoubleTuple.m; path = Expecta/EXPDoubleTuple.m; sourceTree = "<group>"; };
 		4EF9157831B87F7B1EEEF850B09E1445 /* EXPMatchers+haveCountOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+haveCountOf.h"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.h"; sourceTree = "<group>"; };
-		4EFA7B492060A7C79904BB67B9D5E35C /* KTVideoCapturer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTVideoCapturer.h; path = KTDirectSeedingSDK/Classes/VideoService/KTVideoCapturer.h; sourceTree = "<group>"; };
 		501E57A78436A4163896FB168F872D8D /* EXPMatchers+raiseWithReason.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raiseWithReason.h"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.h"; sourceTree = "<group>"; };
-		5020982029A6EAF86B1D25011893CB90 /* KTDirectSeedingSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KTDirectSeedingSDK.release.xcconfig; sourceTree = "<group>"; };
+		509254C687C33271B71F6A0B0790FB47 /* KTDirectSeedingSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KTDirectSeedingSDK-dummy.m"; sourceTree = "<group>"; };
 		51086B5967720918118676ADC2E04F05 /* EXPMatchers+endWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+endWith.h"; path = "Expecta/Matchers/EXPMatchers+endWith.h"; sourceTree = "<group>"; };
 		52EE456CDDC09919D6FB5795DD58B600 /* EXPMatchers+equal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+equal.h"; path = "Expecta/Matchers/EXPMatchers+equal.h"; sourceTree = "<group>"; };
 		54F9ADBDA4B3EBAE6C43B435A2D5E5F1 /* EXPMatchers+postNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+postNotification.m"; path = "Expecta/Matchers/EXPMatchers+postNotification.m"; sourceTree = "<group>"; };
 		5550D0AA0DA52E4338257E35B223241A /* Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Specta.h; path = Specta/Specta/Specta.h; sourceTree = "<group>"; };
 		55C6A1564E8226CDD5ED59B1C9FFB619 /* Expecta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.release.xcconfig; sourceTree = "<group>"; };
+		58ECE947381063FD276CEED32474D7A4 /* KTDirectSeedingSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KTDirectSeedingSDK-umbrella.h"; sourceTree = "<group>"; };
+		5C286911848909DDB11CD3FA21A00826 /* KTAudioCapturer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KTAudioCapturer.m; path = KTDirectSeedingSDK/Classes/AudioService/KTAudioCapturer.m; sourceTree = "<group>"; };
 		5EBC8F300895E39EA0DF6D6B2B5E6BCD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5EE0EF657EA8B3B7188CCF9B5801CCE7 /* EXPMatchers+match.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+match.h"; path = "Expecta/Matchers/EXPMatchers+match.h"; sourceTree = "<group>"; };
 		62157114474A33C252A8BD92DAB859A7 /* EXPMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatchers.h; path = Expecta/Matchers/EXPMatchers.h; sourceTree = "<group>"; };
 		626828D31F7FFEE4D9F497D7966D3BA9 /* EXPMatchers+beTruthy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beTruthy.m"; path = "Expecta/Matchers/EXPMatchers+beTruthy.m"; sourceTree = "<group>"; };
+		63A87718D3B98618789964D451674C8D /* KTVideoEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTVideoEncoder.h; path = KTDirectSeedingSDK/Classes/VideoService/KTVideoEncoder.h; sourceTree = "<group>"; };
 		63F4911FA0AC532C296638451881684C /* EXPMatchers+haveCountOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+haveCountOf.m"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.m"; sourceTree = "<group>"; };
-		6496C4C5C012C5658A3212EB5C3216EA /* KTDirectSeedingSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KTDirectSeedingSDK.modulemap; sourceTree = "<group>"; };
 		68C600495790C3CA74CAF7323014D0B6 /* Specta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-umbrella.h"; sourceTree = "<group>"; };
 		691EB50857CC51C10FACF438F831E34D /* Specta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.debug.xcconfig; sourceTree = "<group>"; };
 		6A53700542065CC24914306F32E83943 /* EXPMatchers+beSubclassOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSubclassOf.h"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.h"; sourceTree = "<group>"; };
 		6DD6F789C64809BE240F873718FA5265 /* SpectaUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaUtility.m; path = Specta/Specta/SpectaUtility.m; sourceTree = "<group>"; };
+		7010B2608CFCC836E668863F380B5456 /* KTAudioCapturer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTAudioCapturer.h; path = KTDirectSeedingSDK/Classes/AudioService/KTAudioCapturer.h; sourceTree = "<group>"; };
+		711C462BAD556D936C30C1E1D645D205 /* KTDirectSeedingSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KTDirectSeedingSDK.release.xcconfig; sourceTree = "<group>"; };
 		744DABD0BD3742D6276794A5B249BF29 /* SPTExampleGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExampleGroup.m; path = Specta/Specta/SPTExampleGroup.m; sourceTree = "<group>"; };
 		79492E52EF20FBD7034CB460AEAEF8E3 /* EXPMatchers+beInstanceOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInstanceOf.m"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.m"; sourceTree = "<group>"; };
 		7974E444DCE8B8C95B369E1FA49F0C46 /* EXPMatchers+raise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raise.h"; path = "Expecta/Matchers/EXPMatchers+raise.h"; sourceTree = "<group>"; };
@@ -245,22 +254,24 @@
 		800BA88A2B2AB351294257BFEB46D734 /* EXPMatchers+beCloseTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beCloseTo.m"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.m"; sourceTree = "<group>"; };
 		8052780F2D10385467C68D2FFCBFFFE8 /* ExpectaSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaSupport.h; path = Expecta/ExpectaSupport.h; sourceTree = "<group>"; };
 		834D574DAAD1150C15D17D52E386BEC5 /* SPTCallSite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCallSite.h; path = Specta/Specta/SPTCallSite.h; sourceTree = "<group>"; };
+		839409F29603BDF6C6472C8D681AB0B8 /* KTVideoDecoder_H264.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KTVideoDecoder_H264.m; path = KTDirectSeedingSDK/Classes/VideoService/KTVideoDecoder_H264.m; sourceTree = "<group>"; };
 		83E41E3E45D16283667C79A4FA48C31A /* EXPFloatTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPFloatTuple.m; path = Expecta/EXPFloatTuple.m; sourceTree = "<group>"; };
 		84877D89FE5B1486CFDC4152C2D27688 /* XCTestCase+Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase+Specta.h"; path = "Specta/Specta/XCTestCase+Specta.h"; sourceTree = "<group>"; };
+		84AFF4969DD91F2787B1548128B94F85 /* KTDirectSeedingSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KTDirectSeedingSDK-Info.plist"; sourceTree = "<group>"; };
 		870FBDFBF15026844185E42D2F846D45 /* Pods-KTDirectSeedingSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KTDirectSeedingSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		89120B9E08AD0863D117FA43B0C62AF7 /* Pods-KTDirectSeedingSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KTDirectSeedingSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8AA2293B9D992D8CC36D4497F2FA86C3 /* SpectaTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaTypes.h; path = Specta/Specta/SpectaTypes.h; sourceTree = "<group>"; };
 		8B63FE2B0E8A200FD45B4C88AD9CC86E /* EXPMatchers+beNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beNil.h"; path = "Expecta/Matchers/EXPMatchers+beNil.h"; sourceTree = "<group>"; };
 		8EBBFD330B5D79D8404F1344BC8E76B9 /* SPTCompiledExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCompiledExample.m; path = Specta/Specta/SPTCompiledExample.m; sourceTree = "<group>"; };
+		94C57233FFE2CCA3A5FF2DE6D8E600E9 /* KTMetalPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KTMetalPlayer.m; path = KTDirectSeedingSDK/Classes/RenderService/KTMetalPlayer.m; sourceTree = "<group>"; };
 		9512233FA5509DBBBFB4DAB84CE8E4FE /* EXPMatchers+beginWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beginWith.h"; path = "Expecta/Matchers/EXPMatchers+beginWith.h"; sourceTree = "<group>"; };
 		96E72CED24D42EFB32667CC61FB205DE /* KTDirectSeedingSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KTDirectSeedingSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D87F8C18584C28A31AC3E30C769EEC /* Pods-KTDirectSeedingSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KTDirectSeedingSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9A56DDB4B298574F74E70FBE7F1634AF /* EXPMatchers+beIdenticalTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beIdenticalTo.h"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.h"; sourceTree = "<group>"; };
-		9AD725B2CA7AAF6992BA09F1B28C17F2 /* KTDirectSeedingSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KTDirectSeedingSDK-dummy.m"; sourceTree = "<group>"; };
-		9B6935D7ECDE5EB2DB78B83EC15642F2 /* KTVideoCapturer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KTVideoCapturer.m; path = KTDirectSeedingSDK/Classes/VideoService/KTVideoCapturer.m; sourceTree = "<group>"; };
 		9CC59B812DBBE731D119CEA764173FCF /* Pods-KTDirectSeedingSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KTDirectSeedingSDK_Example.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DDFAD5DB99C9F5E54B7B0063AB8C8BE /* Specta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Specta.modulemap; sourceTree = "<group>"; };
+		9FCFAC4D9AD26D1A1811B6958E5244DC /* KTDirectSeedingSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KTDirectSeedingSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2007DAF76851C515B41D1AAEE130286 /* EXPExpect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPExpect.h; path = Expecta/EXPExpect.h; sourceTree = "<group>"; };
 		A2FC1E0BD37716EEC8381536684C8510 /* Pods-KTDirectSeedingSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KTDirectSeedingSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		A400F6B9197409A428DB3B9DF7A0765D /* EXPMatchers+beLessThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.h"; sourceTree = "<group>"; };
@@ -276,7 +287,6 @@
 		B2E7C19388671439133D10116E96EDCE /* EXPBlockDefinedMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPBlockDefinedMatcher.h; path = Expecta/EXPBlockDefinedMatcher.h; sourceTree = "<group>"; };
 		B44E0BCA8A998B2AC8447E511D2484DD /* SPTGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTGlobalBeforeAfterEach.h; path = Specta/Specta/SPTGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
 		B8B248E1732671DF238AFF71FD92F606 /* EXPMatchers+beGreaterThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThan.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.h"; sourceTree = "<group>"; };
-		B9D3239DC2A45FCEFB1C9D6C401BB934 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BAABA40792B0344C3E185F9FBC553B38 /* EXPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDefines.h; path = Expecta/EXPDefines.h; sourceTree = "<group>"; };
 		BB73890739F1D1864A3FA48A2E37F157 /* Expecta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expecta-dummy.m"; sourceTree = "<group>"; };
 		BFC0275A456126E2D4753D844BC35BA2 /* Pods-KTDirectSeedingSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KTDirectSeedingSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -285,12 +295,12 @@
 		C346FB385E646787BCDA910EA29E552E /* EXPMatchers+endWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+endWith.m"; path = "Expecta/Matchers/EXPMatchers+endWith.m"; sourceTree = "<group>"; };
 		C388E176E4C8E646B6A3A50FD8297C9F /* Pods-KTDirectSeedingSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KTDirectSeedingSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		C3AFDD2A4912369B9775E4F5AB38F85C /* EXPUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPUnsupportedObject.h; path = Expecta/EXPUnsupportedObject.h; sourceTree = "<group>"; };
-		C3D090C3515BEEC52AB8F8134402A5B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C41B7954E0D33F7B278C5D74966B728F /* KTDirectSeedingSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KTDirectSeedingSDK-prefix.pch"; sourceTree = "<group>"; };
+		C4D9D234C809305D798BD5B3C030CF6C /* KTDirectSeedingSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KTDirectSeedingSDK.debug.xcconfig; sourceTree = "<group>"; };
 		C59D1284C71A60B75D1DCA4EC3521C85 /* EXPMatchers+respondTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+respondTo.m"; path = "Expecta/Matchers/EXPMatchers+respondTo.m"; sourceTree = "<group>"; };
 		C9772B093039F7BCADE184B01A457D8C /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "Expecta/NSObject+Expecta.h"; sourceTree = "<group>"; };
 		CA3024BCB728114C9517479C42338F82 /* Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Expecta.h; path = Expecta/Expecta.h; sourceTree = "<group>"; };
 		CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CAA5873CCD3E9E57B80A67D0633EEB19 /* KTDirectSeedingSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KTDirectSeedingSDK.debug.xcconfig; sourceTree = "<group>"; };
 		CBB8B84CE88B4791589AA36CD1EF71F2 /* EXPMatchers+conformTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+conformTo.h"; path = "Expecta/Matchers/EXPMatchers+conformTo.h"; sourceTree = "<group>"; };
 		CD07D9DAF64FF866CC0BE7DE93C54E9C /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = Specta/Specta/SPTExampleGroup.h; sourceTree = "<group>"; };
 		CD9B016FE7343AFC9DB3B9E34769710E /* EXPMatchers+beFalsy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beFalsy.m"; path = "Expecta/Matchers/EXPMatchers+beFalsy.m"; sourceTree = "<group>"; };
@@ -299,13 +309,12 @@
 		D72D4C3911D235EF89DCA93641D238BB /* EXPMatchers+raise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raise.m"; path = "Expecta/Matchers/EXPMatchers+raise.m"; sourceTree = "<group>"; };
 		D97F2DD9788D72FEA68F235885029445 /* Specta-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Specta-Info.plist"; sourceTree = "<group>"; };
 		DDC28C5F9E8560EE0100CC62A17E76CF /* Pods-KTDirectSeedingSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KTDirectSeedingSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DE5EB614004ED5517348608477BB5800 /* KTDirectSeedingSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KTDirectSeedingSDK-prefix.pch"; sourceTree = "<group>"; };
 		E18DB10B91957E78E1C38104887A7B3E /* XCTest+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTest+Private.h"; path = "Specta/Specta/XCTest+Private.h"; sourceTree = "<group>"; };
 		E1DA2D06A1237EE72CE03D4ED1C91BB3 /* SPTExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExample.m; path = Specta/Specta/SPTExample.m; sourceTree = "<group>"; };
 		E2980AD7521EC72DEC6401B6BE1E1C03 /* Pods_KTDirectSeedingSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KTDirectSeedingSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E0C6BDD9228B246232C78E1E429CDE /* Specta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-prefix.pch"; sourceTree = "<group>"; };
 		E5C3B5CA959E14C7CA811F47B2D99E5F /* EXPMatchers+beLessThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThan.m"; path = "Expecta/Matchers/EXPMatchers+beLessThan.m"; sourceTree = "<group>"; };
-		E858859F04293E60132B15C1D35E8915 /* KTDirectSeedingSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KTDirectSeedingSDK-Info.plist"; sourceTree = "<group>"; };
+		EA2B5EA3B4D184F09D28989DA031EF2A /* KTDirectSeedingSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KTDirectSeedingSDK.modulemap; sourceTree = "<group>"; };
 		EB435303462FE7901845212515A16FAF /* Pods-KTDirectSeedingSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KTDirectSeedingSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		ECF24B722046AC166BF61410B00EC137 /* Pods-KTDirectSeedingSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KTDirectSeedingSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		ED2F36D66BA083C8B035E136182E3578 /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "Expecta/Matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
@@ -314,19 +323,12 @@
 		F0A880AA1B49127D9D71DF12D3832E7D /* EXPMatchers+beginWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beginWith.m"; path = "Expecta/Matchers/EXPMatchers+beginWith.m"; sourceTree = "<group>"; };
 		F1688222BBCFCCCC2670A2801EC16937 /* EXPMatchers+match.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+match.m"; path = "Expecta/Matchers/EXPMatchers+match.m"; sourceTree = "<group>"; };
 		F54C4B4E9A2D9A0D88F2852FD1466E59 /* EXPMatchers+beLessThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.m"; sourceTree = "<group>"; };
+		F686E4EA6FA964E60213087172297565 /* KTVideoCapturer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KTVideoCapturer.m; path = KTDirectSeedingSDK/Classes/VideoService/KTVideoCapturer.m; sourceTree = "<group>"; };
 		F703EBE7600167825031EF253EBABABC /* SPTTestSuite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTTestSuite.h; path = Specta/Specta/SPTTestSuite.h; sourceTree = "<group>"; };
 		FCE3433972F32B363968995F5E99D215 /* EXPBlockDefinedMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPBlockDefinedMatcher.m; path = Expecta/EXPBlockDefinedMatcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1788F6EC2AAC028B35AEC2CC93FE7101 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F040E2C536AFE6E78E5A5EC1E6D43F0F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7312BAFD17174C2E85416CF941012159 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -349,6 +351,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC1E8FE0E273E02989FFDAAEA814440E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D237C78E58EDFEE95AAB8A59E92208BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDE6CBEA7B973947181B3CD94F3A4D5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,21 +395,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Specta";
-			sourceTree = "<group>";
-		};
-		39FD1A6A6623F9AC9DFDF25B967EFC9C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6496C4C5C012C5658A3212EB5C3216EA /* KTDirectSeedingSDK.modulemap */,
-				9AD725B2CA7AAF6992BA09F1B28C17F2 /* KTDirectSeedingSDK-dummy.m */,
-				E858859F04293E60132B15C1D35E8915 /* KTDirectSeedingSDK-Info.plist */,
-				DE5EB614004ED5517348608477BB5800 /* KTDirectSeedingSDK-prefix.pch */,
-				374026DD5FD4AC0FDCBC99BA8C386080 /* KTDirectSeedingSDK-umbrella.h */,
-				CAA5873CCD3E9E57B80A67D0633EEB19 /* KTDirectSeedingSDK.debug.xcconfig */,
-				5020982029A6EAF86B1D25011893CB90 /* KTDirectSeedingSDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KTDirectSeedingSDK";
 			sourceTree = "<group>";
 		};
 		424870DA99852D330516DCFDFBEED3CB /* Expecta */ = {
@@ -483,12 +478,27 @@
 			path = Expecta;
 			sourceTree = "<group>";
 		};
-		594B8B2EA753C27BFBC1EF76467D8D34 /* Development Pods */ = {
+		5F8B06FFCE6D0605AA2A8AD8F2CD5CB4 /* KTVideoService */ = {
 			isa = PBXGroup;
 			children = (
-				C91EB7BA90E066F07B11A2D777439AC1 /* KTDirectSeedingSDK */,
+				468E710A8C46C0115517703F0A7864F3 /* KTVideoCapturer.h */,
+				F686E4EA6FA964E60213087172297565 /* KTVideoCapturer.m */,
+				28A5111EBD770E69C688EE9C2277017C /* KTVideoDecoder_H264.h */,
+				839409F29603BDF6C6472C8D681AB0B8 /* KTVideoDecoder_H264.m */,
+				63A87718D3B98618789964D451674C8D /* KTVideoEncoder.h */,
+				309CDEDFE6FEB1B9004E0F3CC7523450 /* KTVideoEncoder.m */,
 			);
-			name = "Development Pods";
+			name = KTVideoService;
+			sourceTree = "<group>";
+		};
+		616F948877F3C0C6089C21A49373A754 /* KTRenderService */ = {
+			isa = PBXGroup;
+			children = (
+				328FA35D9ED8A3EC191A5CFD02D3ED5C /* KTMetalPlayer.h */,
+				94C57233FFE2CCA3A5FF2DE6D8E600E9 /* KTMetalPlayer.m */,
+				03F834E925EE1A8B001556E2 /* Shaders.metal */,
+			);
+			name = KTRenderService;
 			sourceTree = "<group>";
 		};
 		6350FC28F7A862147F50143243239C73 /* Pods-KTDirectSeedingSDK_Tests */ = {
@@ -559,6 +569,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		775FE0DF1DF815B6BD4F890F6C666BCA /* KTAudioService */ = {
+			isa = PBXGroup;
+			children = (
+				7010B2608CFCC836E668863F380B5456 /* KTAudioCapturer.h */,
+				5C286911848909DDB11CD3FA21A00826 /* KTAudioCapturer.m */,
+			);
+			name = KTAudioService;
+			sourceTree = "<group>";
+		};
 		896F33B5B663753F7481CA1670FF26F9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -572,6 +591,16 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Expecta";
+			sourceTree = "<group>";
+		};
+		937E34458A66CA0987708ECEB6631DBA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9FCFAC4D9AD26D1A1811B6958E5244DC /* KTDirectSeedingSDK.podspec */,
+				0BB527892985A97412AEC9F66B773792 /* LICENSE */,
+				254245100F1E53508D4F8D91655EEE27 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		974814B39C0012DECD183BBB91B32103 /* iOS */ = {
@@ -612,27 +641,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C91EB7BA90E066F07B11A2D777439AC1 /* KTDirectSeedingSDK */ = {
+		BF56D9401DDD727B3E660C55D06108EA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4EFA7B492060A7C79904BB67B9D5E35C /* KTVideoCapturer.h */,
-				9B6935D7ECDE5EB2DB78B83EC15642F2 /* KTVideoCapturer.m */,
-				03F09A3825E79CCC00864542 /* KTVideoDecoder_H264.h */,
-				03F09A3925E79CCC00864542 /* KTVideoDecoder_H264.m */,
-				03F09A4D25E7A9B800864542 /* KTVideoEncoder.h */,
-				03F09A4E25E7A9B800864542 /* KTVideoEncoder.m */,
-				CF24D6635C565073EA6E8F9EAA95058B /* Pod */,
-				39FD1A6A6623F9AC9DFDF25B967EFC9C /* Support Files */,
+				EA2B5EA3B4D184F09D28989DA031EF2A /* KTDirectSeedingSDK.modulemap */,
+				509254C687C33271B71F6A0B0790FB47 /* KTDirectSeedingSDK-dummy.m */,
+				84AFF4969DD91F2787B1548128B94F85 /* KTDirectSeedingSDK-Info.plist */,
+				C41B7954E0D33F7B278C5D74966B728F /* KTDirectSeedingSDK-prefix.pch */,
+				58ECE947381063FD276CEED32474D7A4 /* KTDirectSeedingSDK-umbrella.h */,
+				C4D9D234C809305D798BD5B3C030CF6C /* KTDirectSeedingSDK.debug.xcconfig */,
+				711C462BAD556D936C30C1E1D645D205 /* KTDirectSeedingSDK.release.xcconfig */,
 			);
-			name = KTDirectSeedingSDK;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KTDirectSeedingSDK";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				594B8B2EA753C27BFBC1EF76467D8D34 /* Development Pods */,
+				F8A0FF5E3BE0E3AADD3426819A485E5D /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				6E6C170FCD35761F737081DDC00A1D80 /* Pods */,
 				BE568CC3B9758ECDAC4976E4087C3628 /* Products */,
@@ -640,19 +668,43 @@
 			);
 			sourceTree = "<group>";
 		};
-		CF24D6635C565073EA6E8F9EAA95058B /* Pod */ = {
+		EC0DAB3C57738A28919A170DF515F20C /* KTDirectSeedingSDK */ = {
 			isa = PBXGroup;
 			children = (
-				0B9F4DEF50ED06AD193A990CB5E38AF8 /* KTDirectSeedingSDK.podspec */,
-				B9D3239DC2A45FCEFB1C9D6C401BB934 /* LICENSE */,
-				C3D090C3515BEEC52AB8F8134402A5B0 /* README.md */,
+				775FE0DF1DF815B6BD4F890F6C666BCA /* KTAudioService */,
+				616F948877F3C0C6089C21A49373A754 /* KTRenderService */,
+				5F8B06FFCE6D0605AA2A8AD8F2CD5CB4 /* KTVideoService */,
+				937E34458A66CA0987708ECEB6631DBA /* Pod */,
+				BF56D9401DDD727B3E660C55D06108EA /* Support Files */,
 			);
-			name = Pod;
+			name = KTDirectSeedingSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F8A0FF5E3BE0E3AADD3426819A485E5D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC0DAB3C57738A28919A170DF515F20C /* KTDirectSeedingSDK */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		370D26284D58E0019C59A0E43C3D9B74 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFCBD137A406239D165B945B6923912 /* KTAudioCapturer.h in Headers */,
+				C5C606B799362FB687670A92114D2717 /* KTDirectSeedingSDK-umbrella.h in Headers */,
+				16A6DFA262D0F87BAAE5C482C0E5AB01 /* KTMetalPlayer.h in Headers */,
+				CDB9C58A5DBC60DAC5C115812411C9F6 /* KTVideoCapturer.h in Headers */,
+				4001F0F7CF72BC7354BB2DAB97F976B4 /* KTVideoDecoder_H264.h in Headers */,
+				150BCA95E25ABB7A89383012EA300C77 /* KTVideoEncoder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4900EEFFF3A049EDA40F917F4EED85CD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -731,17 +783,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A42295D057E0E2593B8E965656E42243 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				03F09A4F25E7A9B800864542 /* KTVideoEncoder.h in Headers */,
-				03F09A3A25E79CCC00864542 /* KTVideoDecoder_H264.h in Headers */,
-				5B10782D94C8E5E56964F6465F755BA5 /* KTDirectSeedingSDK-umbrella.h in Headers */,
-				87F24C3A73A2DE8007931E36E7AB947E /* KTVideoCapturer.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D21E7E125CE4CC2D3DB2EDA661CF4B56 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -755,12 +796,12 @@
 /* Begin PBXNativeTarget section */
 		033591F8B298A3E03B9734CEEF9CEFCF /* KTDirectSeedingSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D58B28A9F8A4229C477C0A8A90F8DAB0 /* Build configuration list for PBXNativeTarget "KTDirectSeedingSDK" */;
+			buildConfigurationList = BF25DF51E4138C76F460E8E094F84F43 /* Build configuration list for PBXNativeTarget "KTDirectSeedingSDK" */;
 			buildPhases = (
-				A42295D057E0E2593B8E965656E42243 /* Headers */,
-				6E057F3FBAD2A8B9099C7E0E61B386EC /* Sources */,
-				1788F6EC2AAC028B35AEC2CC93FE7101 /* Frameworks */,
-				83ECAE05A2AC8A2679CCD686499E85BE /* Resources */,
+				370D26284D58E0019C59A0E43C3D9B74 /* Headers */,
+				AE3C84CBA4AE9544509AB71F879B2CA9 /* Sources */,
+				D237C78E58EDFEE95AAB8A59E92208BE /* Frameworks */,
+				45559F74DFAAFA3A27BF6DE572B99B02 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -783,7 +824,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				DE91B01C0B1E93E56F8D547F87701422 /* PBXTargetDependency */,
+				AB900B3E718AD4C56034E7F5CAE5D0B6 /* PBXTargetDependency */,
 			);
 			name = "Pods-KTDirectSeedingSDK_Example";
 			productName = "Pods-KTDirectSeedingSDK_Example";
@@ -802,9 +843,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				E95320D131DAB23D987EADA6DF778235 /* PBXTargetDependency */,
-				411857D0537A6AA1A362BDF57076C87C /* PBXTargetDependency */,
-				2B68C5785D7FEF591CB3DFBD29719D45 /* PBXTargetDependency */,
+				40F5954411C94372A3C3AEA77B4B194E /* PBXTargetDependency */,
+				D2C78B1506FB1C5064009974AB0AD31F /* PBXTargetDependency */,
+				D03F901AC2CA7CA4DC6FDD3F08268B97 /* PBXTargetDependency */,
 			);
 			name = "Pods-KTDirectSeedingSDK_Tests";
 			productName = "Pods-KTDirectSeedingSDK_Tests";
@@ -893,7 +934,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83ECAE05A2AC8A2679CCD686499E85BE /* Resources */ = {
+		45559F74DFAAFA3A27BF6DE572B99B02 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -940,17 +981,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6C0289D7DBCDA998DD932E0CC16FECA /* Pods-KTDirectSeedingSDK_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6E057F3FBAD2A8B9099C7E0E61B386EC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				03F09A3B25E79CCC00864542 /* KTVideoDecoder_H264.m in Sources */,
-				03F09A5025E7A9B800864542 /* KTVideoEncoder.m in Sources */,
-				CBED2E5C744683DFF81766A7A46175BA /* KTDirectSeedingSDK-dummy.m in Sources */,
-				11A701535706868AA9CA8AF04FB5361B /* KTVideoCapturer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1004,36 +1034,81 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AE3C84CBA4AE9544509AB71F879B2CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F501FF1D1F34675B40A1B1CC652BF52 /* KTAudioCapturer.m in Sources */,
+				03F834EA25EE1A8B001556E2 /* Shaders.metal in Sources */,
+				DAD360148904DA2F7D1C061811E6A8C5 /* KTDirectSeedingSDK-dummy.m in Sources */,
+				A2F3E08E5D57C902B7278CC6218695F3 /* KTMetalPlayer.m in Sources */,
+				705CA92142A45A53A92D728296257867 /* KTVideoCapturer.m in Sources */,
+				93273259F3C7C58CDE1FE25022B42FA0 /* KTVideoDecoder_H264.m in Sources */,
+				871E7DEA5855AACF1DA3C574F372C60C /* KTVideoEncoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2B68C5785D7FEF591CB3DFBD29719D45 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Specta;
-			target = F8676010755CF1530FC02DA9A0D8822B /* Specta */;
-			targetProxy = 46F17D55CB6DC2D39CB78069815DA352 /* PBXContainerItemProxy */;
-		};
-		411857D0537A6AA1A362BDF57076C87C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-KTDirectSeedingSDK_Example";
-			target = 4A4E39D7E59D41622488F661A849F82E /* Pods-KTDirectSeedingSDK_Example */;
-			targetProxy = 196530EB548651A8140640F705116AA5 /* PBXContainerItemProxy */;
-		};
-		DE91B01C0B1E93E56F8D547F87701422 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KTDirectSeedingSDK;
-			target = 033591F8B298A3E03B9734CEEF9CEFCF /* KTDirectSeedingSDK */;
-			targetProxy = 041C635746731DE674C6F05CC5FDB4CB /* PBXContainerItemProxy */;
-		};
-		E95320D131DAB23D987EADA6DF778235 /* PBXTargetDependency */ = {
+		40F5954411C94372A3C3AEA77B4B194E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Expecta;
 			target = DC371B7477C88184274EC6710690F97C /* Expecta */;
-			targetProxy = E4F3CF932739269D6B4E7E9864D28D9A /* PBXContainerItemProxy */;
+			targetProxy = BB9DB84F31CA63C9399371A5A82C8E57 /* PBXContainerItemProxy */;
+		};
+		AB900B3E718AD4C56034E7F5CAE5D0B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KTDirectSeedingSDK;
+			target = 033591F8B298A3E03B9734CEEF9CEFCF /* KTDirectSeedingSDK */;
+			targetProxy = BD4923457D75E91E85AF63605EB2380A /* PBXContainerItemProxy */;
+		};
+		D03F901AC2CA7CA4DC6FDD3F08268B97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Specta;
+			target = F8676010755CF1530FC02DA9A0D8822B /* Specta */;
+			targetProxy = 3E99326AC28C8C918F55A29306BD15A1 /* PBXContainerItemProxy */;
+		};
+		D2C78B1506FB1C5064009974AB0AD31F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KTDirectSeedingSDK_Example";
+			target = 4A4E39D7E59D41622488F661A849F82E /* Pods-KTDirectSeedingSDK_Example */;
+			targetProxy = 672089338DBDD512B76877D7B1354DA8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2305F611DFDC7EA82C16A611132F30B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 711C462BAD556D936C30C1E1D645D205 /* KTDirectSeedingSDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KTDirectSeedingSDK/KTDirectSeedingSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KTDirectSeedingSDK/KTDirectSeedingSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KTDirectSeedingSDK/KTDirectSeedingSDK.modulemap";
+				PRODUCT_MODULE_NAME = KTDirectSeedingSDK;
+				PRODUCT_NAME = KTDirectSeedingSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1288,9 +1363,9 @@
 			};
 			name = Release;
 		};
-		BB13CDE41EFB214C8479DE9FABAA9E04 /* Release */ = {
+		B6583162ECFBBF4DDA73B734D169A259 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5020982029A6EAF86B1D25011893CB90 /* KTDirectSeedingSDK.release.xcconfig */;
+			baseConfigurationReference = C4D9D234C809305D798BD5B3C030CF6C /* KTDirectSeedingSDK.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1313,11 +1388,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1379,36 +1453,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		CD41BE507394A5545481972E05D7DCA1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAA5873CCD3E9E57B80A67D0633EEB19 /* KTDirectSeedingSDK.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KTDirectSeedingSDK/KTDirectSeedingSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KTDirectSeedingSDK/KTDirectSeedingSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KTDirectSeedingSDK/KTDirectSeedingSDK.modulemap";
-				PRODUCT_MODULE_NAME = KTDirectSeedingSDK;
-				PRODUCT_NAME = KTDirectSeedingSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		D63A6CE1A84E918B6641AE3388AC457F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1504,11 +1548,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D58B28A9F8A4229C477C0A8A90F8DAB0 /* Build configuration list for PBXNativeTarget "KTDirectSeedingSDK" */ = {
+		BF25DF51E4138C76F460E8E094F84F43 /* Build configuration list for PBXNativeTarget "KTDirectSeedingSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD41BE507394A5545481972E05D7DCA1 /* Debug */,
-				BB13CDE41EFB214C8479DE9FABAA9E04 /* Release */,
+				B6583162ECFBBF4DDA73B734D169A259 /* Debug */,
+				2305F611DFDC7EA82C16A611132F30B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -146,6 +146,7 @@
 
 #pragma mark -- 视频解码 KTVideoH264DecoderDelegate
 - (void)videoDecodeOutputDataCallback:(CVImageBufferRef)imageBuffer {
+    // 解码后数据 实时展示
     NSLog(@"实时解码数据 %@", imageBuffer);
 }
 

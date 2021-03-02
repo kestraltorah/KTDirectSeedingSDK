@@ -70,6 +70,7 @@ static void decodeOutputDataCallback(void *decompressionOutputRefCon, void *sour
 
     // 设置解码输出数据回调
     VTDecompressionOutputCallbackRecord callBackRecord;
+    // 解码方法回调
     callBackRecord.decompressionOutputCallback = decodeOutputDataCallback;
     callBackRecord.decompressionOutputRefCon = (__bridge void *)self;
     // 创建解码器
@@ -110,11 +111,9 @@ static void decodeOutputDataCallback(void *decompressionOutputRefCon, void *sour
 
     if(decodeStatus == kVTInvalidSessionErr) {
         NSLog(@"H264Decoder::Invalid session, reset decoder session");
-    }
-    else if(decodeStatus == kVTVideoDecoderBadDataErr) {
+    } else if(decodeStatus == kVTVideoDecoderBadDataErr) {
         NSLog(@"H264Decoder::decode failed status = %d(Bad data)", (int)decodeStatus);
-    }
-    else if(decodeStatus != noErr) {
+    } else if(decodeStatus != noErr) {
         NSLog(@"H264Decoder::decode failed status = %d", (int)decodeStatus);
     }
 

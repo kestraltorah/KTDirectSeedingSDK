@@ -22,7 +22,7 @@ pod 'KTDirectSeedingSDK'
 
 ## Author
 
-kestraltorah@163.com, guowei@huami.com
+kestraltorah@163.com
 
 ## License
 

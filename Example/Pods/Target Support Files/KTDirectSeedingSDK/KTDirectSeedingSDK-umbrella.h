@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "KTAudioCapturer.h"
+#import "KTMetalPlayer.h"
 #import "KTVideoCapturer.h"
 #import "KTVideoDecoder_H264.h"
 #import "KTVideoEncoder.h"

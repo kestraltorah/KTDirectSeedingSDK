@@ -1,6 +1,12 @@
 PODS:
   - Expecta (1.0.6)
-  - KTDirectSeedingSDK (0.1.0)
+  - KTDirectSeedingSDK (0.1.3):
+    - KTDirectSeedingSDK/KTAudioService (= 0.1.3)
+    - KTDirectSeedingSDK/KTRenderService (= 0.1.3)
+    - KTDirectSeedingSDK/KTVideoService (= 0.1.3)
+  - KTDirectSeedingSDK/KTAudioService (0.1.3)
+  - KTDirectSeedingSDK/KTRenderService (0.1.3)
+  - KTDirectSeedingSDK/KTVideoService (0.1.3)
   - Specta (1.0.7)
 
 DEPENDENCIES:
@@ -19,7 +25,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
-  KTDirectSeedingSDK: fcf7e67cab833a864617dbd4234729e158c71ec4
+  KTDirectSeedingSDK: 4f2fccb7f5b19ed7df30263fb4c6e52c1645b87f
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
 PODFILE CHECKSUM: 08e624abb419752de5767d0958c03d22fdc24454
