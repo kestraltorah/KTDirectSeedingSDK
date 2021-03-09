@@ -19,7 +19,6 @@
 // The max number of command buffers in flight
 static const NSUInteger g_max_inflight_buffers = 3;
 
-
 float cubeVertexData[16] =
 {
     -1.0, -1.0,  0.0, 1.0,
